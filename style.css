@@ -1,0 +1,37 @@
+*{box-sizing: border-box ;}
+body {
+   margin: 0; font-family: system-ui, Arial, sans-serif; background: #f6f7fb; color: #222;
+}
+.container {
+    max-width: 720px; margin: 48px auto; padding: 0 16px;
+}
+h1 { margin: 0 0 16px; text-align: center;}
+.card {
+    background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+.status {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; color: #555;
+}
+.question {
+    font-size: 1.2rem; margin: 8px 0 16px; min-height: 48px;
+}
+.options { display: grid; gap: 10px; margin-bottom: 16px;}
+.options-btn{
+    border: 1px solid #ddd; background: #fafafa; padding: 12px 14px; border-radius: 10px;
+    cursor: pointer; text-align: left; transition: transform 0.02s ease, border-color 0.2s, background 0.2s;
+}
+.options-btn:hover {border-color: #bbb;}
+.options-btn:active { transform: scale(0.955);}
+.options-btn.selected {
+    background: #e9f3ff; border-color: #6aa9ff;
+}
+.options-btn.correct { background: #e6ffef; border-color: #2ecc71;}
+.options-btn.wrong { background: #ffeaea; border-color: #ff6b6b;}
+
+.actions { display: flex; gap: 10px; }
+.btn {
+    border: none; background: #2563eb; color: #fff; padding: 10px 16px; border-radius: 10px; cursor: pointer;
+}
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.btn-secondary { background: #6b7280;}
+.footnote { text-align: center; margin-top: 16px; color: #666; }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Simple Quiz</h1>
+
+      <div id="quiz-card" class="card">
+        <div id="status" class="status">
+          <sapn id="question-number">Question 1</sapn>
+          <span id="score-display">Score: 0</span>
+        </div>
+        <div id="question" class="question">Loading</div>
+        <div
+          id="options"
+          class="options"
+          role="group"
+          aria-label="Answer choices"
+        >
+          <!--options will be injected here-->
+        </div>
+        <div class="actions">
+          <button id="next-btn" class="btn" disabled>Next</button>
+          <button id="restart-btn" class="btn btn-secondary" hidden>
+            Restart
+          </button>
+        </div>
+      </div>
+      <footer class="footnote">
+        <small>Built for Mini-Project</small>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
