@@ -31,6 +31,4 @@ code .
 
 3. Run the project
 If you have the Live Server extension installed in VS Code:
-Right-click index.html → Open with Live Server
-
-Or just double-click index.html to open in your browser.
+Right-click index.html → Open with Live Server Or just double-click index.html to open in your browser.
