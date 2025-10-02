@@ -22,5 +22,5 @@ This is a small web-based quiz tool that allows students to test their knowledge
 
 ## 🚀 Getting Started
 
-### 1. Clone this repository
+### 1. Clone this repositoryand push
 https://github.com/princessble/simple-quiz-app.git
