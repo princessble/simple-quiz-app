@@ -1,5 +1,5 @@
 # Simple Quiz App 🎓
-<img src="Assets\img\simple quiz app jpg.jpg" alt="Quiz App Preview">
+<img src="Assets/img/simple quiz app jpg.jpg" alt="Quiz App Preview">
 A mini-project built as part of the **Women Techsters Fellowship Program**.  
 This is a small web-based quiz tool that allows students to test their knowledge after a lesson.
 
