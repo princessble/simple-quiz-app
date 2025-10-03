@@ -7,7 +7,7 @@ body {
 }
 h1 { margin: 0 0 16px; text-align: center;}
 .card {
-    background: hsl(0, 84%, 42%); border-radius: 12px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    background: hwb(294 7% 23%); border-radius: 12px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 .status {
     display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; color: #555;
